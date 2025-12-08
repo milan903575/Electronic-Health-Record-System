@@ -1,0 +1,78 @@
+
+================================================================================
+DEBUG SESSION STARTED: 2025-06-20 07:17:52
+================================================================================
+[2025-06-20 07:17:52] [INFO] Script execution started
+[2025-06-20 07:17:52] [INFO] Loading SecurityHeadersManager class
+[2025-06-20 07:17:52] [INFO] SecurityHeadersManager class loaded successfully
+[2025-06-20 07:17:52] [INFO] Initializing security headers
+[2025-06-20 07:17:52] [INFO] SecurityHeadersManager initialized
+[2025-06-20 07:17:52] [INFO] HTTPS check result: true
+[2025-06-20 07:17:52] [INFO] HSTS header sent: Strict-Transport-Security: max-age=31536000; includeSubDomains
+[2025-06-20 07:17:52] [INFO] CSP header sent: Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; connect-src 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self'
+[2025-06-20 07:17:52] [INFO] X-Frame-Options header sent: DENY
+[2025-06-20 07:17:52] [INFO] X-Content-Type-Options header sent
+[2025-06-20 07:17:52] [INFO] X-XSS-Protection header sent
+[2025-06-20 07:17:52] [INFO] Referrer-Policy header sent: strict-origin-when-cross-origin
+[2025-06-20 07:17:52] [INFO] Permissions-Policy header sent: camera=(), microphone=(), geolocation=(), payment=()
+[2025-06-20 07:17:52] [INFO] Additional header sent: X-Permitted-Cross-Domain-Policies: none
+[2025-06-20 07:17:52] [INFO] Additional header sent: Cross-Origin-Embedder-Policy: require-corp
+[2025-06-20 07:17:52] [INFO] Additional header sent: Cross-Origin-Opener-Policy: same-origin
+[2025-06-20 07:17:52] [INFO] Additional header sent: Cross-Origin-Resource-Policy: same-origin
+[2025-06-20 07:17:52] [INFO] All security headers sent successfully
+[2025-06-20 07:17:52] [INFO] Security headers initialized and sent successfully
+[2025-06-20 07:17:52] [INFO] Setting session security configuration
+[2025-06-20 07:17:52] [INFO] Session security configuration set successfully
+[2025-06-20 07:17:52] [INFO] Attempting to include database connection
+[2025-06-20 07:17:52] [INFO] Database connection file included successfully
+[2025-06-20 07:17:52] [INFO] MySQLi error reporting enabled
+[2025-06-20 07:17:52] [INFO] Database connection test successful
+[2025-06-20 07:17:52] [INFO] Starting session
+[2025-06-20 07:17:52] [INFO] Session started successfully. Session ID: 8f779d69387323f5eff98f8912d4a0a5
+[2025-06-20 07:17:52] [INFO] Generating CSRF token
+[2025-06-20 07:17:52] [INFO] CSRF token already exists
+[2025-06-20 07:17:52] [INFO] CSRF token: 37f13dc2fb...
+[2025-06-20 07:17:52] [INFO] Validating CSRF token for POST request
+[2025-06-20 07:17:52] [INFO] CSRF token validated successfully
+[2025-06-20 07:17:52] [INFO] Checking authentication
+[2025-06-20 07:17:52] [INFO] User ID: 1
+[2025-06-20 07:17:52] [INFO] User Type: doctor
+[2025-06-20 07:17:52] [INFO] Authentication successful
+[2025-06-20 07:17:52] [INFO] Doctor ID set to: 1
+[2025-06-20 07:17:52] [INFO] Fetching doctor information for ID: 1
+[2025-06-20 07:17:52] [INFO] Doctor info fetched successfully: Milan M
+[2025-06-20 07:17:52] [INFO] Hospital: Kasturba Medical College
+[2025-06-20 07:17:52] [INFO] Status: available
+[2025-06-20 07:17:52] [INFO] Checking authorization
+[2025-06-20 07:17:52] [INFO] Authorization status: 1
+[2025-06-20 07:17:52] [INFO] Authorization check passed
+[2025-06-20 07:17:52] [INFO] Hospital ID: 4
+[2025-06-20 07:17:52] [INFO] Processing status update
+[2025-06-20 07:17:52] [INFO] New status: available
+[2025-06-20 07:17:52] [INFO] Status updated successfully to: available
+[2025-06-20 07:17:52] [INFO] Fetching pending cases count
+[2025-06-20 07:17:52] [INFO] Pending count: 4
+[2025-06-20 07:17:52] [INFO] Fetching completed cases count
+[2025-06-20 07:17:52] [INFO] Completed count: 1
+[2025-06-20 07:17:52] [INFO] Fetching pending patient cases
+[2025-06-20 07:17:52] [INFO] Pending cases fetched: 4
+[2025-06-20 07:17:52] [INFO] Fetching completed patient cases
+[2025-06-20 07:17:52] [INFO] Completed cases fetched: 1
+[2025-06-20 07:17:52] [INFO] Fetching private pending cases
+[2025-06-20 07:17:52] [INFO] Private pending cases: 3
+[2025-06-20 07:17:52] [INFO] Fetching private completed cases
+[2025-06-20 07:17:52] [INFO] Private completed cases: 0
+[2025-06-20 07:17:52] [INFO] Fetching consultation cases
+[2025-06-20 07:17:52] [INFO] Consultation cases: 3
+[2025-06-20 07:17:52] [INFO] Fetching immunizations for patient reports
+[2025-06-20 07:17:52] [ERROR] MySQL error in patient reports - Exception: Table 'if0_38023308_ehr.Immunizations' doesn't exist - File: /home/vol1_7/infinityfree.com/if0_38023308/htdocs/patientRecords/doctor/doctor_profile.php - Line: 846 - Trace: #0 /home/vol1_7/infinityfree.com/if0_38023308/htdocs/patientRecords/doctor/doctor_profile.php(846): mysqli->prepare('\n    SELECT \n  ...')
+#1 {main}
+[20-Jun-2025 07:17:52 America/New_York] MySQL error in patient reports - Exception: Table 'if0_38023308_ehr.Immunizations' doesn't exist - File: /home/vol1_7/infinityfree.com/if0_38023308/htdocs/patientRecords/doctor/doctor_profile.php - Line: 846 - Trace: #0 /home/vol1_7/infinityfree.com/if0_38023308/htdocs/patientRecords/doctor/doctor_profile.php(846): mysqli->prepare('\n    SELECT \n  ...')
+#1 {main}
+[2025-06-20 07:17:52] [INFO] Database connection closed successfully
+[2025-06-20 07:17:52] [INFO] All database operations completed successfully
+[2025-06-20 07:17:52] [INFO] Rendering HTML dashboard
+[2025-06-20 07:17:52] [INFO] HTML rendering completed successfully
+[2025-06-20 07:17:52] [INFO] Script execution finished
+================================================================================
+

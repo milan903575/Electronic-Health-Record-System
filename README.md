@@ -12,7 +12,7 @@ A secure, multi-hospital Electronic Health Record platform that streamlines hosp
 
 This EHR platform digitizes hospital workflows end-to-end: patients register once and access multiple hospitals, doctors manage cases and prescriptions, receptionists handle verification and scheduling, and admins/super admins onboard hospitals and monitor performance. Encrypted messaging and optional AI assistance reduce unnecessary in-person visits and long waiting times.
 
-- Live demo : **([Electronic Health Record (EHR) System](https://electronichealthrecordsystem.kesug.com/patientRecords/login.php))**
+- Live demo : **Temporarily unavailable (previous free-host deployment is currently flagged by browser security checks due to hosting/SSL limitations). you can run the project locally using the steps below.**
 
 ***
 

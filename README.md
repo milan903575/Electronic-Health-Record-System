@@ -189,6 +189,20 @@ The system supports multiple roles, each with its own dashboard and permissions:
 
 ***
 
+## Screenshots
+
+### Patient Dashboard
+<img width="1919" height="903" alt="Image" src="https://github.com/user-attachments/assets/956f9948-14e5-4b44-b198-261e39cc4cac" />
+
+### Doctor DashBoard
+<img width="1858" height="900" alt="Image" src="https://github.com/user-attachments/assets/a611d468-90e7-468f-b083-797f0fac7b36" />
+
+### Hospital Admin Panel
+<img width="1882" height="898" alt="Image" src="https://github.com/user-attachments/assets/5a56ddc2-07e8-48b0-b69f-dfc395489838" />
+
+> Additional screenshots, architecture diagram, and full feature walkthrough
+> are available on the [portfolio](#).
+
 ## 9. Getting Help
 
 If you face any issues setting up the project, integrating your own AI backend, or configuring payments:
